@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;01Tasks/FreeRTOS_Project.ioc&apos; to &apos;01Task.ioc&apos;" description="Rename resource &apos;FreeRTOS_Project.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FreeRTOS_Project.ioc" name="01Task.ioc" stamp="1665974183907" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;01Tasks/01Task.ioc&apos; to &apos;01Tasks.ioc&apos;" description="Rename resource &apos;01Task.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="01Task.ioc" name="01Tasks.ioc" stamp="1665974193283" updateReferences="true"/>
+</session>

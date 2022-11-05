@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Power_Saving_Mode/03Led_Block_Tasks.ioc&apos; to &apos;Power_Saving_Mode.ioc&apos;" description="Rename resource &apos;03Led_Block_Tasks.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="03Led_Block_Tasks.ioc" name="Power_Saving_Mode.ioc" stamp="1667540202089" updateReferences="true"/>
+</session>

@@ -1,0 +1,17 @@
+14:52:09 **** Build of configuration Debug for project 02Led_Tasks ****
+make -j8 all 
+arm-none-eabi-gcc "D:/RTOS_workspaces/Source/common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/RTOS_workspaces/Source/common/ThirdParty/FreeRTOS/include" -I"D:/RTOS_workspaces/Source/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/RTOS_workspaces/Source/common/ThirdParty/SEGGER/Config" -I"D:/RTOS_workspaces/Source/common/ThirdParty/SEGGER/OS" -I"D:/RTOS_workspaces/Source/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.d" -MT"common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "common/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Config_FreeRTOS.o"
+arm-none-eabi-gcc -o "02Led_Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\RTOS_workspaces\Source\02Led_Tasks\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="02Led_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 02Led_Tasks.elf
+ 
+arm-none-eabi-size   02Led_Tasks.elf 
+arm-none-eabi-objdump -h -S  02Led_Tasks.elf  > "02Led_Tasks.list"
+   text	   data	    bss	    dec	    hex	filename
+  22316	     28	  84492	 106836	  1a154	02Led_Tasks.elf
+Finished building: default.size.stdout
+ 
+Finished building: 02Led_Tasks.list
+ 
+
+14:52:09 Build Finished. 0 errors, 0 warnings. (took 928ms)
+
